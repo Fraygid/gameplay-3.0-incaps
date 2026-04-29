@@ -13,6 +13,6 @@ class Vampire:
             print('Ошибка: уровень жажды крови должен быть от 0 до 100!')
 
 
-v = Vampire('Камаэлла', 70)
-v.set_bloodlust(150)
-print(v.get_bloodlust())
+vamp = Vampire('Камаэлла', 70)
+vamp.set_bloodlust(150)
+print(vamp.get_bloodlust())
